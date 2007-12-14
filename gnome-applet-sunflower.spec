@@ -5,6 +5,7 @@ Version:	0.6
 Release:	1
 License:	GPL v2
 Group:		Applications
+#Source0-Download: http://dekorte.homeip.net/download/download.php#sunflower
 Source0:	http://dekorte.homeip.net/download/sunflower/sunflower_applet-%{version}.tar.gz
 # Source0-md5:	f1f7adea69d185ae8c93dbc726c5eb10
 URL:		http://dekorte.homeip.net/download/sunflower/
