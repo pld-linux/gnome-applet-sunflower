@@ -1,18 +1,19 @@
 Summary:	Applet to adjust shadow position for composited window managers
 Summary(pl.UTF-8):	Aplet regulujący położenie cienia dla składających zarządców okien
-Name:		gnome-sunflower-applet
-Version:	0.6
+Name:		gnome-applet-sunflower
+Version:	0.7.1
 Release:	1
 License:	GPL v2
 Group:		Applications
 #Source0-Download: http://dekorte.homeip.net/download/download.php#sunflower
 Source0:	http://dekorte.homeip.net/download/sunflower/sunflower_applet-%{version}.tar.gz
-# Source0-md5:	f1f7adea69d185ae8c93dbc726c5eb10
+# Source0-md5:	11f0387730991d937c54a2dfc508f757
 URL:		http://dekorte.homeip.net/download/sunflower/
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRequires:	gnome-panel-devel >= 2.0
 BuildRequires:	pkgconfig
+Obsoletes:	gnome-sunflower-applet
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -67,4 +68,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_libdir}/sunflower
 %{_libdir}/bonobo/servers/SunflowerApplet.server
-%{_pixmapsdir}/sunflower.png
+%{_pixmapsdir}/*.png
