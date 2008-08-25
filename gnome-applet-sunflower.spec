@@ -4,7 +4,7 @@ Name:		gnome-applet-sunflower
 Version:	0.7.1
 Release:	1
 License:	GPL v2
-Group:		Applications
+Group:		X11/Applications
 #Source0-Download: http://dekorte.homeip.net/download/download.php#sunflower
 Source0:	http://dekorte.homeip.net/download/sunflower/sunflower_applet-%{version}.tar.gz
 # Source0-md5:	11f0387730991d937c54a2dfc508f757
